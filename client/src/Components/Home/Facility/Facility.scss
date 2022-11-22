@@ -1,0 +1,42 @@
+.facility{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    @media(max-width:600px){
+        width: 100%;
+        flex-direction: column;
+    }
+    .faci{
+        width: 25%;
+        padding: 1.5em;
+        @media(max-width:600px){
+            width: 60%;
+            margin: 1em auto;
+            padding: 0;
+        }
+        figure{
+            min-height: 113px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 1rem;
+            img{
+                vertical-align: middle;
+                border-style: none;
+            }
+        }
+        h3{
+            font-size: 1.188rem;
+            font-weight: 600;
+            color: #304e9a;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 0;
+            font-size: 15px;
+            line-height: 24px;
+        }
+    }
+}

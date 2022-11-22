@@ -1,0 +1,77 @@
+.about{
+    width: 100%;
+    margin: 3em 0;
+    background-image:  url('https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40em;
+    @media(max-width:600px){
+        height: 60em;
+    }
+    .cont{
+        position: absolute;
+        background: linear-gradient(to right,rgba(0,0,255,0.7),rgba(128,0,128,0.7));
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;   
+        .items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            @media(max-width:600px){
+                flex-direction: column;
+            }
+            .itm1{
+                width: 40%;
+                margin: 4em;
+                @media(max-width:600px){
+                    width: 100%;
+                    margin: 4em 0;
+                }
+                img{
+                    width: 80%;
+                    border-radius: 20px;
+                    @media(max-width:600px){
+                        width: 90%;
+                        margin : 0 5%;
+                    }
+                }
+            }
+            .itm2{
+                width: 40%;
+                margin-top: 0%;
+                color: white;
+                padding-right: 2em;
+                @media(max-width:600px){
+                    width: 100%;
+                    padding: 0;
+                    margin-top: 0;
+                }
+                h3{
+                    font-size: 35px;
+                    @media(max-width:600px){
+                        font-size: 25px;
+                        text-align: 
+                        center;
+                        width: 100%;
+                    }
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 1.5;
+                    text-align: justify;
+                    @media(max-width:600px){
+                        width: 90%;
+                        margin: 0 5%;
+                        text-align: center;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

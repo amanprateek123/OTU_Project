@@ -1,0 +1,35 @@
+.scrollTop {
+    position: fixed; 
+    width: 10px;
+    bottom: 10px;
+    align-items: center;
+    height: 20px;
+    right: 20px;
+    background-color: #304e9a;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    color:white;
+  }
+  
+  .scrollTop:hover{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+  .MuiSvgIcon-root{
+      width: 40px !important;
+  }

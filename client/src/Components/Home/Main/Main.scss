@@ -1,0 +1,85 @@
+.main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    padding: 5em 0;
+    @media(max-width:600px){
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        padding: 5em 0 2em 0;
+    }
+    .main_cont{
+        margin-left: 3em;
+        @media(max-width:600px){
+           margin: 0;
+        }
+        h3{
+            font-weight: bold;
+            font-size: 25px;
+            margin-top: 5px;
+            margin-bottom: -10px !important;
+            width: auto;
+            @media(max-width:600px){
+                text-align: center;
+                font-size: 17px;
+            }
+        }
+        h1{
+            font-size: 60px;
+            color : #304e9a;
+            margin-bottom: 0.3em!important;
+            @media(max-width:600px){
+               font-size: 45px;
+               text-align: center;
+            }
+        }
+        ul{
+            margin: 0!important;
+            padding: 0 1.5em!important;
+            @media(max-width:600px){
+                margin: 0 auto;
+                list-style: none;
+             }
+            li{
+                font-size: 20px;
+                margin: 0.5em 0;
+                @media(max-width:600px){
+                    font-size: 15px;
+                    text-align: center;
+                 }
+            }
+        }
+        .get{
+            width: 30em;
+            margin: 1em 0;
+            padding: .75em;
+            background: linear-gradient(to right, #304e9a,purple)!important;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;            
+            @media(max-width:600px){
+                width: 90%;
+                padding: 0.5em;
+                font-size: 13px;
+                margin-left: 5%;
+            }
+        }
+    }
+    .main_img{
+        background-image: url('https://previews.123rf.com/images/denisined/denisined1908/denisined190800095/129514749-sale-20-off-discount-banner-design-template-promo-tag-extra-offer-vector-illustration.jpg');
+        background-position: center;
+        background-size: contain;
+        width: 40%;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        height: 28em;
+        margin-right: 4em;
+        @media(max-width:600px){
+            width: 100%;
+            margin: 1em 0;
+        }
+    }
+}
